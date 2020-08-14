@@ -26,7 +26,7 @@ MNIST Dataset is used for training. Pixel values are converted to binary values 
 
 MADE defines implicit joint input image probability using the chain rule. The linear connections between layers is adjusted (masked) in a way so that each output probability is the conditional probability distribution based on all previously sampled pixel values. 
 
-![Network](images/net.png)
+![Network](Images/net.png)
 
 For binary pixel value case, sampling happens assuming the bernoulli distribution. 
 
@@ -36,26 +36,26 @@ For binary pixel value case, sampling happens assuming the bernoulli distributio
 
 Training loss is plotted after each iteration on batch of 128 images. 
 
-![Training Loss](images/train_loss.png)
+![Training Loss](Images/train_loss.png)
 
 ----
 ## Validation Loss 
 
 Validation loss is calculated on the valid data after each epoch.
 
-![Validation Loss](images/validation_loss.png)
+![Validation Loss](Images/validation_loss.png)
 
 --- 
 
 ## MNIST Images (Original)
 
-![orig](images/original.png)
+![orig](Images/original.png)
 
 ---
 
 
 ## MNIST Images (Generated)
 
-![gen](images/generation.png)
+![gen](Images/generation.png)
 
 ---
